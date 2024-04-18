@@ -1,0 +1,28 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+span, details, div, hr {
+  display: block;
+}
+
+.allEncompassingContainer {
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.option {
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 100%;
+  width: fit-content;
+}
+
+.sections {
+  margin-bottom: 10px;
+}
