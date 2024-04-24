@@ -4,6 +4,7 @@ body {
   line-height: 1.9rem; */
   font-size: 1.4rem;
   line-height: 1.58rem;
+  background-color: white;
 }
 
 span, details, div, hr {
@@ -201,11 +202,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex3to1 .largerImg3to1 {
-    width: calc(calc(100vw - 50px) * 0.75);
+    width: calc(calc(100vw - 51px) * 0.75);
     object-fit: cover;
   }
   .horizontalFlex3to1 .smallerImg3to1 {
-    width: calc(calc(100vw - 50px) * 0.25);
+    width: calc(calc(100vw - 51px) * 0.25);
     object-fit: cover;
   }
 }
@@ -220,11 +221,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex2to1 .largerImg2to1 {
-    width: calc( calc( calc(100vw - 50px) / 100) * 40);
+    width: calc( calc( calc(100vw - 51px) / 100) * 40);
     object-fit: cover;
   }
   .horizontalFlex2to1 .smallerImg2to1 {
-    width: calc( calc( calc(100vw - 50px) / 100) * 30);
+    width: calc( calc( calc(100vw - 51px) / 100) * 30);
     object-fit: cover;
   }
 }
@@ -265,7 +266,7 @@ details[open]>summary .primaryImage {
 
 @media (min-width: 700px) {
   .horizontalFlex img {
-    width: calc( calc(100vw - 50px) / 2);
+    width: calc( calc(100vw - 51px) / 2);
   }
 }
 
