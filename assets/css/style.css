@@ -202,11 +202,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex3to1 .largerImg3to1 {
-    width: calc(calc(100vw - 51px) * 0.75);
+    width: calc(calc(calc(100vw - 40px) * 0.75) - 5px);
     object-fit: cover;
   }
   .horizontalFlex3to1 .smallerImg3to1 {
-    width: calc(calc(100vw - 51px) * 0.25);
+    width: calc(calc(calc(100vw - 40px) * 0.25) - 5px);
     object-fit: cover;
   }
 }
@@ -221,11 +221,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex2to1 .largerImg2to1 {
-    width: calc( calc( calc(100vw - 51px) / 100) * 40);
+    width: calc( calc( calc( calc(100vw - 40px) / 100) * 40) - 5px);
     object-fit: cover;
   }
   .horizontalFlex2to1 .smallerImg2to1 {
-    width: calc( calc( calc(100vw - 51px) / 100) * 30);
+    width: calc(calc( calc( calc(100vw - 40px) / 100) * 30) - 5px);
     object-fit: cover;
   }
 }
@@ -266,7 +266,7 @@ details[open]>summary .primaryImage {
 
 @media (min-width: 700px) {
   .horizontalFlex img {
-    width: calc( calc(100vw - 51px) / 2);
+    width: calc(calc( calc(100vw - 40px) / 2) - 5px);
   }
 }
 
