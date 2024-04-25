@@ -207,6 +207,12 @@ details[open]>summary .bottomMargin {
   object-fit: cover;
 }
 
+@media (min-width: 700px) {
+  .horizontalFlex img {
+    width: calc(50% - 5px);
+  }
+}
+
 /* 3:1 DOUBLE IMAGES — HORIZONTAL FLEXBOX */
 .horizontalFlex3to1 {
   width: 100%;
@@ -217,11 +223,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex3to1 .largerImg3to1 {
-    width: calc(calc(calc(100vw - 40px) * 0.75) - 5px);
+    width: calc(calc(100% * 0.75) - 5px);
     object-fit: cover;
   }
   .horizontalFlex3to1 .smallerImg3to1 {
-    width: calc(calc(calc(100vw - 40px) * 0.25) - 5px);
+    width: calc(calc(100% * 0.25) - 5px);
     object-fit: cover;
   }
 }
@@ -236,11 +242,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex2to1 .largerImg2to1 {
-    width: calc( calc( calc( calc(100vw - 40px) / 100) * 40) - 5px);
+    width: calc( calc( 100% * 0.4) - 5px);
     object-fit: cover;
   }
   .horizontalFlex2to1 .smallerImg2to1 {
-    width: calc(calc( calc( calc(100vw - 40px) / 100) * 30) - 5px);
+    width: calc(calc(100% * 0.3) - 5px);
     object-fit: cover;
   }
 }
@@ -293,13 +299,6 @@ details[open]>summary .primaryImage {
 
 .correctHeight2 img {
   max-height: none;
-}
-
-
-@media (min-width: 700px) {
-  .horizontalFlex img {
-    width: calc(calc( calc(100vw - 40px) / 2) - 5px);
-  }
 }
 
 @media (min-width: 1000px) {
