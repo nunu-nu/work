@@ -310,7 +310,7 @@ details[open]>summary .primaryImage {
   }
 
   .displayImageContainer {
-    width: 100%;
+    width: calc(100vw - 40px);
     display: flex;
     height: 27.5vw;
     justify-content: space-between;
