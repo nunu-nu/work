@@ -11,6 +11,16 @@ span, details, div, hr {
   display: block;
 }
 
+.italic {
+  font-style: italic;
+  display: inline;
+}
+
+a {
+  color: rgb(53, 29, 231);
+  text-decoration: none;
+}
+
 .allEncompassingContainer {
   padding: 20px;
 }
@@ -20,6 +30,10 @@ span, details, div, hr {
 }
 .p2 {
   text-indent: 2.4rem;
+}
+
+.p1 {
+  margin-top: 20px;
 }
 
 hr {
@@ -230,6 +244,23 @@ details[open]>summary .bottomMargin {
   }
 }
 
+/* SWAPPING IMAGE BETWEEN SMALL AND BIG */
+
+.onlyBig {
+  display:none;
+}
+.onlySmall {
+  display:block;
+}
+
+@media (min-width: 1000px) {
+  .onlyBig {
+    display:block;
+  }
+  .onlySmall {
+    display:none;
+  }
+}
 
 .fullWidthImage {
   width: 100%;
