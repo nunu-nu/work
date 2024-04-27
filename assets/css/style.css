@@ -129,7 +129,8 @@ summary::-webkit-details-marker {
 }
 
 .outerContainer {
-  width: calc( 100vw - 40px );
+  display: block;
+  /* width: calc( 100vw - 40px ); */
 }
 
 .displayImageContainer {
