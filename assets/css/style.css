@@ -174,8 +174,35 @@ details[open]>summary .displayImageContainer {
 .openIcon1 {
   display: none;
 }
+
+/* @keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(15deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-15deg); }
+  100% { transform: rotate(0deg); }
+} */
+
+@keyframes tilt-shaking-subtle {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
 .openIcon2 {
   display: inline-block;
+  animation: tilt-shaking-subtle 0.3s 2;
+  transform-origin: 45% 55%;
+}
+
+details:hover .openIcon2 {
+  animation: tilt-shaking-subtle 0.4s infinite;
+}
+details:hover .titles {
+  color: #30813d;
+  /* color: #af661e; */
 }
 
 details[open]>summary .openIcon1 {
