@@ -241,6 +241,8 @@ details[open]>summary .bottomMargin {
   }
 }
 
+
+
 /* 3:1 DOUBLE IMAGES — HORIZONTAL FLEXBOX */
 .horizontalFlex3to1 {
   width: 100%;
@@ -270,11 +272,11 @@ details[open]>summary .bottomMargin {
 }
 @media (min-width: 1000px) {
   .horizontalFlex2to1 .largerImg2to1 {
-    width: calc( calc( 100% * 0.4) - 5px);
+    width: calc( calc( 100% * 0.55) - 5px);
     object-fit: cover;
   }
   .horizontalFlex2to1 .smallerImg2to1 {
-    width: calc(calc(100% * 0.3) - 5px);
+    width: calc(calc(100% * 0.45) - 5px);
     object-fit: cover;
   }
 }
@@ -348,6 +350,10 @@ details[open]>summary .primaryImage {
     flex:auto;
     flex-shrink: 1;
   }
+  
+  .coverLarge img {
+    object-fit: cover;
+  }
 
   .secondaryImg {
     display: block;
@@ -377,4 +383,24 @@ details[open]>summary .primaryImage {
 
 .fitContent {
   height:fit-content;
+}
+
+@media (min-width: 1000px) {
+  .horizontalFlexSquare {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 10px;
+  
+    margin-bottom: 10px;
+  }
+  
+  .horizontalFlexSquare img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
