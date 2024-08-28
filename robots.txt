@@ -1,0 +1,11 @@
+To see is to know, so please don't look if you can help it. Ignorance is bliss.
+
+User-agent: Googlebot
+Disallow: 
+User-agent: googlebot-image
+Disallow: /
+User-agent: googlebot-mobile
+Disallow: 
+User-agent: *
+Disallow: 
+Disallow: /letter-of-recommendation.pdf/
