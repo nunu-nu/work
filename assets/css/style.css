@@ -1,10 +1,11 @@
 body {
-    font-family: "Article", Verdana, "Trebuchet MS", Tahoma, sans-serif;
+    font-family: "Article", Georgia, serif;
     /* font-size: 1.6rem;
   line-height: 1.9rem; */
     font-size: 1.4rem;
     line-height: 1.58rem;
-    background-color: white;
+    background-color: rgb(252, 252, 252);
+    color: rgb(49, 42, 42);
 }
 
 span,
@@ -27,6 +28,7 @@ hr {
 
 a {
     color: rgb(53, 29, 231);
+    color: #ed5137;
     text-decoration: none;
 }
 
@@ -47,7 +49,7 @@ a {
 }
 
 hr {
-    border: 1px solid black;
+    border: 0.6px solid black;
     margin-bottom: 10px;
     margin-top: 10px;
 }
